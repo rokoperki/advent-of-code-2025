@@ -10,6 +10,7 @@ fn main() -> std::io::Result<()> {
     let mut is_last_step = false;
     let mut x_count = 0;
 
+
     let mut lines: Vec<String> = contents.lines().map(|line| line.to_string()).collect();
 
     while is_last_step == false {
