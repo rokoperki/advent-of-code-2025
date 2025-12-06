@@ -3,7 +3,7 @@ use std::io::prelude::*;
 
 fn main() -> std::io::Result<()> {
     let mut contents = String::new();
-    File::open("input.txt")?.read_to_string(&mut contents)?;
+    File::open("input2.txt")?.read_to_string(&mut contents)?;
     let mut all_endpoints: Vec<Vec<u64>> = vec![];
     let mut all_numbers: u64 = 0;
 
